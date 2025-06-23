@@ -51,10 +51,10 @@ app.delete('/api/users/:id', (req, res) => {
 
 // Home route
 app.get('/', (req, res) => {
-  res.send('<h1 style="text-align:center;">Welcome to Home Page 🏠</h1>');
+  res.send('<h1 style="text-align:center;">Welcome to Home Page </h1>');
 });
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`✅ Server running at http://localhost:${PORT}`);
+  console.log(`Server running at http://localhost:${PORT}`);
 });
